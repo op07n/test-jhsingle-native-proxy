@@ -1,1 +1,25 @@
-
+name: test-jhsingle-native-proxy
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - ipykernel
+  - python=3.7
+  - pip
+  - pip:
+    - pathtools==0.1.2
+    - streamlit
+    - jhsingle-native-proxy
+    - nbgitpuller
+    - datetime
+    - random2
+    - bokeh
+    - markdown
+    - numpy
+    - scipy
+    - matplotlib
+    - pandas
+    - vega
+    - pydot
+    - xlrd
+    - plotly
